@@ -1,0 +1,91 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.container {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  margin: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-weight: 700;
+  font-size: x-large;
+}
+
+.header .register,
+.header .login {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  margin: 0 4px;
+}
+
+.body {
+  margin: 0 20px;
+}
+
+.upper-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.upper-content button {
+  border: none;
+  cursor: pointer;
+  background-color: #22c55e;
+  color: white;
+  padding: 12px 40px;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 60px;
+}
+
+.lower-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.descriptions {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.description-1,
+.description-2,
+.description-3 {
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: -100px;
+}
+
+.description-1 p,
+.description-2 p,
+.description-3 p {
+  text-align: center;
+  margin: 0;
+}
+
+.footer {
+  margin-top: 100px;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
