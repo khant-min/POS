@@ -1,0 +1,98 @@
+.wrapper {
+  margin: 20px 80px;
+}
+
+.body {
+  display: flex;
+  gap: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+.icon-container {
+  display: flex;
+  gap: 30px;
+}
+
+.sidebar {
+  min-width: 20%;
+  margin: 20px 0;
+}
+
+.sidebar ul a {
+  text-decoration: none;
+}
+
+.sidebar ul a li {
+  border: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+.sidebar ul a li:hover {
+  background-color: lightgray;
+  border-radius: 4px;
+  transition: all 0.1s ease-in-out;
+}
+
+.content {
+  margin-top: 40px;
+}
+
+.boxes {
+  display: flex;
+  gap: 10px;
+}
+
+.boxes div {
+  background-color: rgba(223, 220, 220, 0.89);
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.boxes div p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.boxes div span {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.content {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.search {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.search input {
+  width: 100%;
+  padding: 8px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.search div {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn {
+  z-index: 999;
+}
